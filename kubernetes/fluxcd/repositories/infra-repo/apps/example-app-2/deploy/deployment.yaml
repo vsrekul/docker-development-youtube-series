@@ -24,7 +24,7 @@ spec:
       - name: dockerhub-credential
       containers:
       - name: example-app-2
-        image: docker.io/vsrekul/example-app-2:0.0.1 # {"$imagepolicy": "default:example-app-2"}
+        image: vsrekul/example-app-2:0.0.1 # {"$imagepolicy": "default:example-app-2"}
         ports:
         - containerPort: 5000
         volumeMounts:

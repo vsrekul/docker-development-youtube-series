@@ -21,7 +21,7 @@ spec:
         app: example-app-2
     spec:
       imagePullSecrets:  
-      - name:
+      - name: dockerhub-credential
       containers:
       - name: example-app-2
         image: docker.io/vsrekul/example-app-2:0.0.1 # {"$imagepolicy": "default:example-app-2"}

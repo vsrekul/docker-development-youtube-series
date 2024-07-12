@@ -20,6 +20,8 @@ spec:
       labels:
         app: example-app-1
     spec:
+      imagePullSecrets:  
+      - name: dockerhub-credential
       containers:
       - name: example-app-1
         image: vsrekul/example-app-1:0.0.1

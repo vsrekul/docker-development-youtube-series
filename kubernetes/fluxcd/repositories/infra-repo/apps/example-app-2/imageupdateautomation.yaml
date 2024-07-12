@@ -18,7 +18,7 @@ spec:
         name: fluxcdbot
       messageTemplate: '{{range .Updated.Images}}{{println .}}{{end}}'
     push:
-      branch: fluxcd-2022
+      branch: master
   update:
     path: ./kubernetes/fluxcd/repositories/infra-repo/apps/example-app-2/deploy/deployment.yaml
     strategy: Setters
